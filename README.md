@@ -68,6 +68,40 @@ Each class should at the minimum have 4 skills that fit their kit described abov
 
 # Graphics
 
+## **Graphics Technologies**
+
+The graphics technologies options available are:
+1. OpenGL Custom Graphics Engine - Gives more flexibility of work and options in terms of what tools and features are needed for the game, however can take more time to build from scratch.
+1. Unreal Engine 4 - Already holds a powerful engine with advanced graphics pipelines and tools. It has a powerful Lighting and Rendering system, which is a perfect option for a 3D game like ours. Some of the features included in the engine are: Sub-Surface Shading, PSO Caching (Pipeline State Object), Dynamic Resolution and Post Process Effects. A lot of those can be seen in games like Fortnite, Blade&Soul, Aion, Paragon, Gears of War4, Ark: Survival Evolved and A Way Out. 
+
+## **Animations**
+1. Models (Skeleton and Animations ready).
+1. OBJ files with spread out keyFrames of the animations. (This will allow much smoother playback with less memory usage)
+1. OBJ File Loader for OpenGL (To get vertex, texture, normal and face data).
+1. UE4 can use the Skeletal Mesh Animation System which already holds several Animation Tools and Editors.
+
+## **Design Patterns**
+1. Flyweight Pattern (Model Handling and Loading)
+1. State Pattern (Each character state: Combat, out of combat, Idle, Walking, Running, Jumping, etc..)
+
+## **Performance**
+Performance can see a hit depending on the amount of players (models) moving and being loaded on the same place. Using spells and other visual elements (particles) can further increase the requirements of the graphics.
+
+## **System Requirements**
+Minimum Requirements
+1. OS: *Windows 7, 8, 10*
+1. Processor: *Intel Core i5 2.8GHz or similar*
+1. Memory: *4GB*
+1. Graphics Card: *GTX 550 or similar*
+1. Storage: *5GB*
+
+Recommended Requirements
+1. OS: *Windows 7, 8, 10*
+1. Processor: *Intel Core i7 3.0GHz or similar*
+1. Memory: *8GB*
+1. Graphics Card: *GTX 750 or similar*
+1. Storage: *5GB*
+
 # **Networking**
 
 ## **TCP Server**
